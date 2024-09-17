@@ -4,11 +4,15 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+ <Container className="px-4">
+ <h1>hola mundo</h1>  <App />
+ 
+ </Container>
 );
 
 // If you want to start measuring performance in your app, pass a function
