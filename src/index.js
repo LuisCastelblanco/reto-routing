@@ -3,14 +3,16 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
  <Container className="px-4">
- <h1>hola mundo</h1>  <App />
+    <App />
  
  </Container>
 );
